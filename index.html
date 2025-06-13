@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tarun's Portfolio</title>
+  <!-- Tailwind 3 CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/YOUR‑KIT.js" crossorigin="anonymous"></script>
+<!-- Add this in the <head> section if not already added -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="bg-slate-50 text-gray-800 font-sans scroll-smooth">
+
+<!-- ===== Sticky Navbar ===== -->
+<nav class="fixed w-full bg-white/80 backdrop-blur shadow z-50">
+  <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+    <a href="#home" class="text-xl font-bold">Tarun Amaraneni </a>
+    <ul class="hidden md:flex gap-6 text-sm">
+      <li><a class="hover:text-blue-600" href="#skills">Skills</a></li>
+      <li><a class="hover:text-blue-600" href="#projects">Projects</a></li>
+      <li><a class="hover:text-blue-600" href="#experience">Experience</a></li>
+      <li><a class="hover:text-blue-600" href="#certs">Certifications</a></li>
+      <li><a class="hover:text-blue-600" href="#contact">Contact</a></li>
+      <li><a class="border px-3 py-1 rounded hover:bg-blue-600 hover:text-white"
+             href="./tarun_resume.pdf"  download>Résumé</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== Hero ===== -->
+<section id="home" class="pt-32 pb-24 text-center">
+  <img src="./passportphoto.jpg" alt="jhu"
+       class="w-32 h-32 rounded-full mx-auto shadow-lg object-cover">
+  <h1 class="mt-6 text-4xl font-bold">Hi, I'm Tarun Amaraneni</h1>
+  <p class="max-w-xl mx-auto mt-4 text-lg">
+    Final‑year B.Tech CSE student skilled in <b>Java, Python, web tech, and DSA</b>.
+    Seeking a software‑developer role where I can craft efficient, innovative solutions.
+  </p>
+  <a href="#projects"
+     class="mt-8 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">
+     View My Work
+  </a>
+</section>
+
+<!-- ===== Skills ===== -->
+<section id="skills" class="bg-white py-16">
+  <h2 class="text-3xl font-semibold text-center mb-10">Technical & Soft Skills</h2>
+  <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 px-6 text-sm">
+    <div><h3 class="font-medium mb-2">Languages</h3>Java • C • Python • SQL</div>
+    <div><h3 class="font-medium mb-2">Web Tech</h3>HTML • CSS • Javascript  </div>
+    <div><h3 class="font-medium mb-2">Tools</h3>VS Code • GitHub</div>
+    <div><h3 class="font-medium mb-2">Concepts</h3>OOP • OS • SDLC</div>
+    <div><h3 class="font-medium mb-2">Soft Skills</h3>Communication • Problem‑Solving • Teamwork • Leadership</div>
+  </div>
+</section>
+
+<!-- ===== Education ===== -->
+<section class="py-16">
+  <h2 class="text-3xl font-semibold text-center mb-10">Education</h2>
+  <div class="max-w-4xl mx-auto space-y-6 px-6">
+    <div class="border-l-4 border-blue-600 pl-4">
+      <h3 class="font-semibold">B.Tech CSE, SRM Institute of Science and Technology <span class="text-sm text-gray-500">(2021‑2025)</span></h3>
+      <p class="text-gray-600">Chennai, TamilNadu  </p>
+    </div>
+    <div class="border-l-4 border-blue-600 pl-4">
+      <h3 class="font-semibold">Intermediate, Narayana junior college <span class="text-sm text-gray-500">(2019-2021)</span></h3>
+      <p class="text-gray-600">Guntur, AndhraPradesh  </p>
+    </div>
+    <div class="border-l-4 border-blue-600 pl-4">
+      <h3 class="font-semibold">10<sup>th</sup>, Narayana olympiad school <span class="text-sm text-gray-500">(2018‑2019)</span></h3>
+      <p class="text-gray-600">Guntur, AndhraPradesh  </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Projects ===== -->
+<section id="projects" class="bg-white py-16">
+  <h2 class="text-3xl font-semibold text-center mb-12">Projects</h2>
+  <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 px-6">
+
+    <!-- Project 1 -->
+    <article class="bg-slate-100 rounded-xl shadow">
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Login with OAuth</h3>
+        <p class="text-gray-600 mb-4">
+         Developed a secure authentication system using OAuth 2.0, enabling users to log in with providers like Google and
+GitHub.
+        </p>
+        <a href="https://github.com/tarun-amaraneni/OAuth-Implementation-for-Login-with-Google" target="_blank"
+           class="text-blue-600 font-medium hover:underline">Code ↗</a>
+      </div>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="bg-slate-100 rounded-xl shadow">
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Student-Registration-System </h3>
+        <p class="text-gray-600 mb-4">
+          Applied concepts: Demonstrated proficiency in file handling, user authentication, and data management techniques
+through the implementation of features such as adding, viewing, editing, and deleting records in a School Management
+System
+        </p>
+        <a href="https://github.com/VENUmote/Bill_Generator" target="_blank"
+           class="text-blue-600 font-medium hover:underline">Code ↗</a>
+      </div>
+    </article>
+
+    <!-- Project 3 -->
+    <article class="bg-slate-100 rounded-xl shadow">
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">CURD Operations</h3>
+        <p class="text-gray-600 mb-4">
+          •CRUD defines the essential operations used to manage and  manipulate database  records—Create,Read,Update,andDelete. .
+ 
+        </p>
+        <a href="https://github.com/VENUmote/CURD-Operations" target="_blank"
+           class="text-blue-600 font-medium hover:underline">Code ↗</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===== Experience ===== -->
+<section id="experience" class="py-16">
+  <h2 class="text-3xl font-semibold text-center mb-10">Internships & Training</h2>
+  <div class="max-w-4xl mx-auto space-y-6 px-6">
+    <div>
+      <h3 class="font-semibold">Cloud Virtual Internship - AWS academy <span class="text-sm text-gray-500"> (07/2023 - 03/2024)</span></h3>
+      <p class="text-gray-600">
+        Proficient in setting up and managing cloud stuff on Amazon Web Services (AWS), like ensuring apps run smoothly
+and are costeffective. Completed an internship where I gained hands-on experience with AWS tools such as EC2, S3,
+RDS, Lambda, IAM, and CloudFormation. </p>
+    </div>
+    
+  </div>
+</section>
+
+<!-- ===== Certifications ===== -->
+<section id="certs" class="bg-white py-16">
+  <h2 class="text-3xl font-semibold text-center mb-10">Certifications</h2>
+  <ul class="max-w-3xl mx-auto list-disc list-inside px-6 space-y-2 text-gray-700">
+    <li>Harvard - CS50x: Introduction to Computer Science </li>
+    <li>C Programming Language</li>
+    <li>Udemy -cpp</li>
+    <li>Salesforce Ai Associate</li>
+   
+  </ul>
+</section>
+
+<!-- ===== Contact ===== -->
+<section id="contact" class="bg-blue-600 text-white py-16">
+    <h2 class="text-3xl font-semibold text-center mb-6">Let’s Connect</h2>
+    <div class="flex justify-center gap-6 text-xl flex-wrap">
+  
+      <!-- GitHub -->
+      <a href="https://github.com/tarun-amaraneni" target="_blank"
+         class="flex items-center gap-2 bg-white text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-100 transition duration-300">
+        <i class="fab fa-github text-2xl"></i>
+        <span>GitHub</span>
+      </a>
+  
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/tarun-amaraneni-27234a258/" target="_blank"
+         class="flex items-center gap-2 bg-white text-blue-700 px-4 py-2 rounded-lg hover:bg-blue-100 transition duration-300">
+        <i class="fab fa-linkedin text-2xl"></i>
+        <span>LinkedIn</span>
+      </a>
+  
+      <!-- Email -->
+      <a href="mailto:amaranenitarun@gmail.com"
+         class="flex items-center gap-2 bg-white text-red-600 px-4 py-2 rounded-lg hover:bg-red-100 transition duration-300">
+        <i class="fas fa-envelope text-2xl"></i>
+        <span>Email Me</span>
+      </a>
+  
+    </div>
+  </section>
+
+
+<footer class="py-4 text-center text-sm">
+           © 2025 Tarun Amaraneni
+</footer>
+
+</body>
+</html>
